@@ -1,3 +1,5 @@
+
+import fetch from "node-fetch";
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 /**

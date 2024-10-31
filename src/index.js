@@ -61,22 +61,8 @@ async function getUserDataUsingPromiseAll(id) {
 
 
 
-// const div = document.querySelector("#app");
-// const input = document.createElement("input");
-// input.setAttribute("placeholder", "enter Id here");
-// const submitButton = document.createElement("button");
-// submitButton.textContent = "Submitt";
-// div.appendChild(input);
-// div.appendChild(submitButton);
-  
-// submitButton.addEventListener("click", (e) => {
-//   e.preventDefault();
-//   div.textContent = `${getUserData(5)}`;
-// });
-
-
  console.log("get user id=6 using getUserDataUsingThen")
- console.log( await getUserDataUsingThen(6))
+ console.log( await getUserDataUsingThen("6"))
 
  console.log("get user id=3 using getUserDataUsingAsync")
  console.log( await getUserDataUsingAsync(3))
